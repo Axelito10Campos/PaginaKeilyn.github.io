@@ -1,7 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    background-color: #fff;
+    background-color: #EADBC8;
     margin: 0px;
     padding: 0px;
   }
@@ -12,11 +12,12 @@ body {
     overflow: hidden;
 }
 header {
-    background-color: #F8F0E5 ;
+    position: relative;
+    background-color: #fff ;
     background-repeat: no-repeat;
     /* background-size: cover; */
     background-position: center;
-    height: 300px;
+    height: 350px;
     text-align: center;
 }
 .contenedor .menu {
@@ -32,13 +33,13 @@ header {
 
     padding-top: 30px;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     font-stretch: condensed;
 }
 .contenedor .Titulo .Ti{
     margin: 7px;
-    transition: .5s;
+    transition: .2s;
 }
 .contenedor .Titulo .Ti:hover{
     transform: scale(1.1);
@@ -63,6 +64,13 @@ header {
     color: #F8F0E5;
     padding: 5px;
 }
+.contenedor .wave{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+}
 /* -----------NUESTROS ANIMALES----------------------- */
 .Contenedor-TipAnimales{
     text-align: center;
@@ -70,7 +78,8 @@ header {
     
 }
 .Contenedor-TipAnimales h1{
-    font-weight: 100;
+    position: relative;
+    font-weight: bold;
     font-size: 22px;
 }
 .Contenedor-TipAnimales .tipos-animales{
@@ -78,4 +87,9 @@ header {
     flex-wrap: wrap;
     justify-content:space-around;
     padding-top: 40px;
+}
+.Contenedor-TipAnimales .tipos-animales h3{
+    font-size: medium;
+    font-weight: 300;
+    margin-bottom:50px ;
 }
