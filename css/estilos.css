@@ -95,6 +95,7 @@ header {
 }
 .Contenedor-TipAnimales .tipos-animales img{
     margin-bottom: -20px;
+    border-radius: 10px;
 }
 .Contenedor-TipAnimales .tipos-animales h3{
     font-size: medium;
