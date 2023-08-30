@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Gluten:wght@100;300;500&family=Poppins:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&family=Gluten:wght@100;300;500&family=Poppins:wght@200;500&display=swap');
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -161,11 +161,10 @@ header {
     background-color: transparent;
     padding: 7px;
     border-radius: 20px;
-    font-family: 'Gluten', cursive;
-    font-weight: 100;
+    font-family: 'Aclonica', sans-serif;
     font-size:large;
     background-image: radial-gradient( circle 400px at 6.8% 8.3%,  rgba(255,244,169,1) 0%, rgba(255,244,234,1) 100.2% );
-    color: #000;
+    color: #ffa600;
     text-align: center;
 }
 /* -----------------------------------CONTACTOS------------------------------------------------------------------------ */
@@ -213,6 +212,7 @@ header {
     color: #F8F0E5;
     background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
     font-size: 20px;
+    cursor: pointer;
 }
 .Contenedor-Contactanos .Contenedor-Form .boton:hover{
     background: linear-gradient(90deg, #000851 0%, #1CB5E0 100%);
