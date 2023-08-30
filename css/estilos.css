@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&family=Gluten:wght@100;300;500&family=Poppins:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&family=Gluten:wght@100;300;500&family=Jura:wght@300;500&family=Poppins:wght@200;300;500&display=swap');
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    background-color: #EADBC8;
-    margin: 0px;
+    background-color: #93cbef;
+    /* background-image: linear-gradient(135deg, #93cbef 0%, #9599E2 100%); */
     padding: 0px;
+    margin: 0px;
   }
   .contenedor {
     width: 90%;
@@ -15,11 +16,10 @@ body {
 header {
     position: relative;
     background-color: #fff ;
-    background-repeat: no-repeat;
-    /* background-size: cover; */
     background-position: center;
     height: 400px;
     text-align: center;
+    
 }
 .contenedor .menu {
     display: flex;
@@ -28,6 +28,7 @@ header {
     font-size: 20px;
     font-family: 'Gluten', cursive;
     font-weight: 300;
+    color: #000851;
 }
 .contenedor .Titulo {
     display: flex;
@@ -78,6 +79,7 @@ header {
 .Contenedor-TipAnimales{
     text-align: center;
     padding-top: 50px;
+    color: #fff;
 }
 .Contenedor-TipAnimales h1{
     position: relative;
@@ -89,16 +91,21 @@ header {
     flex-wrap: wrap;
     justify-content:space-around;
     padding-top: 40px;
+
+}
+.Contenedor-TipAnimales .tipos-animales img{
+    margin-bottom: -20px;
 }
 .Contenedor-TipAnimales .tipos-animales h3{
     font-size: medium;
     font-weight: 500;
-    margin-bottom:50px ;
+    color: #000851;
 }
 /* -----------------------------PRODUCTOS----------------------------- */
 .Contenedor-Productos{
     text-align: center;
-
+    color: #fff;
+    margin-top: 80px;
 }
 .Contenedor-Productos .productos-descrip{
     font-weight: l;
@@ -106,6 +113,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     margin: 100px 0px 35px 0px;
+    color: #000851;
 
 }
 .Contenedor-Productos .productos-descrip .imagen{
@@ -121,7 +129,6 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     padding-bottom: 50px;
-    
 }
 .Contenedor-Productos .productos-LLC #listado{
     background-image: linear-gradient( 109.6deg,  rgba(254,253,205,1) 11.2%, rgba(163,230,255,1) 91.1% );    border-radius: 20px;
@@ -133,17 +140,20 @@ header {
 }
 .Contenedor-Productos .productos-LLC #listado h3{
     font-weight:400;
+    color: #000851;
 }
 .Contenedor-Productos .productos-LLC #listado p{
     font-weight: 100;
     width: 200px;
     margin: 5px;
     margin-top: -20px;
+    color: #000851;
 }
 /*----------------------------------------QUIENES SOMOS----------------------*/
 .Contenedor-Quienes_Somos{
     text-align: center;
     padding-bottom: 50px;
+    color: #fff;
 }
 .Contenedor-Quienes_Somos .quienes_somos-columnas{
     display: flex;
@@ -153,6 +163,7 @@ header {
 }
 .Contenedor-Quienes_Somos .quienes_somos-columnas #columnas{
     padding: 20px;
+    color: #000851;
 }
 .Contenedor-Quienes_Somos .quienes_somos-columnas #columnas h3{
     font-size: medium;
@@ -170,6 +181,7 @@ header {
 /* -----------------------------------CONTACTOS------------------------------------------------------------------------ */
 .Contenedor-Contactanos h1{
     text-align: center;
+    color: #fff;
 }
 .Contenedor-Contactanos Form{
     width: 300px;
@@ -183,7 +195,7 @@ header {
     flex-direction: column;
     align-items: center;   
     border-radius: 20px;
-    box-shadow: 4px 10px 23px #2353e2;
+    box-shadow: 4px 1px 20px #0008518b;
 }
 .Contenedor-Contactanos .user-box{
     margin-bottom: 20px;
@@ -218,46 +230,54 @@ header {
     background: linear-gradient(90deg, #000851 0%, #1CB5E0 100%);
 }
 /* -------------------------------------------FOOTER---------------------------------------- */
-.Pie-Pagina .grupo-1{
-    width: 100%;
+.Pie-Pagina {
+    /* width: 100%;
     max-width: 1200px;
     margin: auto;
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap:50px;
-    padding: 45px 0px;
-    background-color: #000;
+    overflow: hidden; */
+    background-color: #fff;
+    text-align: center;
 }
-.Pie-Pagina .grupo-1 .box figure{
-    width: 100%;
-    height: 100%;
+.Pie-Pagina .grupo-1{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+    align-content: space-around;
+    color: #543a0a;
 }
-.Pie-Pagina .grupo-1 .box figure img{
-    width: 250px;
-}
-.Pie-Pagina .grupo-1 .box h2{
-    color: #fff;
-    margin-bottom: 25px;
-    font-size: 20px;
+.Pie-Pagina .grupo-1 .box{
+    width: 300px;
 }
 .Pie-Pagina .grupo-1 .box p{
-    color: #efefef;
-    margin-bottom: 10px;
+    font-weight: 300;
 }
-.Pie-Pagina .grupo-1 .red-social a{
-    display: inline-block;
+.Pie-Pagina .grupo-1 .box .red-social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Pie-Pagina .grupo-1 .box .red-social a{
+    color: #543a0a;
     text-decoration: none;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
+    font-size: 24px;
+    background-color: #93cbef;
+    border-radius: 10px;
+    padding: 10px;
+    transition: .2s;
+}
+.Pie-Pagina .grupo-1 .box .red-social a:hover{
+    background-color: #b7d4f9;
     color: #fff;
-    margin-right: 10px;
-    background-color: #0d2033;
-    text-align: center;
-    transition: all 300ms ease;
+    transform: scale(1.1);
+}
+.Pie-Pagina .grupo-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20PX;
+    color: #543a0a;
+    background: linear-gradient(to bottom, #fff, #93cbef);
 }
 @media screen and (max-width:1000px) {
     .Contenedor-Productos .productos-descrip{
@@ -273,6 +293,9 @@ header {
     .Contenedor-Productos .productos-descrip .descrip{
         text-align: center;
         margin: 15px;
+    }
+    .Pie-Pagina .grupo-1{
+        justify-content: center;
     }
 }
 @media screen and (max-width:520px) {
